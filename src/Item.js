@@ -10,7 +10,7 @@ const Item = props => {
         <div>
             <div
                      style={{display: "flex", color: props.type === "completed" ? "gray" : "black"}}>
-                <img src={props.type=== "completed" ? gray_circle : circle} onClick={props.onCompleteItemChange} style={{marginRight : "8px"}}/>
+                <img alt={"circle"} src={props.type=== "completed" ? gray_circle : circle} onClick={props.onCompleteItemChange} style={{marginRight : "8px"}}/>
                 <span onClick={() => toggleActive(true)}>{props.data}</span>
             </div>
             <hr style={{border:"none", height: "1px", backgroundColor: props.type === "completed" ? "gray" : "black"}}/>

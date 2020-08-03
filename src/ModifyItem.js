@@ -11,7 +11,7 @@ const ModifyItem = props => {
             <div style={{display: "flex"}}>
                 <Button black onClick={() => { props.updateItem(value); props.onCancel() }}>Update</Button>
                 <Button onClick={props.onCancel}>Cancel</Button>
-                <img src={logo} style={{marginLeft:"auto", width: "20px"}} onClick={props.deleteItem}/>
+                <img alt={"delete"} src={logo} style={{marginLeft:"auto", width: "20px"}} onClick={props.deleteItem}/>
             </div>
         </div>);
 }
