@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+open [https://loving-goldwasser-7f09cb.netlify.app/](https://loving-goldwasser-7f09cb.netlify.app/)
 
 ## Available Scripts
 
